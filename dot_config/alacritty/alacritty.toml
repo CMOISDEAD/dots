@@ -1,0 +1,76 @@
+import  = [
+  "~/.config/alacritty/themes/themes/gruvbox_dark.toml"
+]
+
+live_config_reload = true
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[cursor]
+unfocused_hollow = true
+
+# [cursor.style]
+# blink_interval = 750
+# blinking = "Always"
+# shape = "Block"
+# thickness = 0.15
+
+[font]
+size = 8.5
+
+[font.bold]
+family = "IntoneMono Nerd Font"
+style = "Medium"
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[font.italic]
+family = "IntoneMono Nerd Font"
+style = "Light Italic"
+
+[font.normal]
+family = "IntoneMono Nerd Font"
+style = "Regular"
+
+[font.offset]
+x = 0
+y = 0
+
+[mouse]
+hide_when_typing = true
+
+[[mouse.bindings]]
+action = "PasteSelection"
+mouse = "Middle"
+
+[scrolling]
+history = 0
+multiplier = 3
+
+[selection]
+save_to_clipboard = false
+semantic_escape_chars = ",│`|:\"' ()[]{}<>"
+
+[shell]
+program = "/usr/bin/zsh"
+
+[window]
+decorations = "Full"
+dynamic_padding = true
+opacity = 0.7
+startup_mode = "Windowed"
+
+[window.dimensions]
+columns = 100
+lines = 80
+
+[window.padding]
+x = 0
+y = 0
+
+[window.position]
+x = 0
+y = 0
